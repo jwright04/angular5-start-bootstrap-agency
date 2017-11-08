@@ -19,9 +19,24 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "./assets/bootstrap/css/bootstrap.min.css",
+        "./assets/css/variables.scss",
+        "./assets/css/global.scss",
+        "./assets/css/mixins.scss",
+        "./assets/css/agency.scss",
+        "./assets/css/masthead.scss",
+        "./assets/font-awesome/css/font-awesome.min.css",
+        "./assets/css/timeline.scss",
+        "styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "./assets/js/jquery/jquery.min.js",
+        "./assets/bootstrap/js/bootstrap.bundle.min.js",
+        "./assets/js/jquery-easing/jquery.easing.min.js",
+        "./assets/js/jqBootstrapValidation.js",
+        "./assets/js/contact_me.js",
+        "./assets/js/agency.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
@@ -54,7 +69,8 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
-    "component": {}
+    "styleExt": "scss",
+    "component": {
+    }
   }
 }
