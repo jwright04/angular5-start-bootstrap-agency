@@ -11,6 +11,7 @@ import { TeamComponent } from './team/team.component';
 import { ClientsComponent } from './clients/clients.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +24,11 @@ import { FooterComponent } from './footer/footer.component';
     TeamComponent,
     ClientsComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    ModalComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

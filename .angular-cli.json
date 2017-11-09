@@ -34,8 +34,8 @@
         "./assets/bootstrap/js/bootstrap.bundle.min.js",
         "./assets/js/jquery-easing/jquery.easing.min.js",
         "./assets/js/jqBootstrapValidation.js",
-        "./assets/js/contact_me.js",
-        "./assets/js/agency.js"
+        "./assets/js/contact_me.js"
+
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

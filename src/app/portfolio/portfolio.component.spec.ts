@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PortfolioComponent } from './portfolio.component';
+import {ModalComponent} from "../modal/modal.component";
 
 describe('PortfolioComponent', () => {
   let component: PortfolioComponent;
@@ -8,7 +9,7 @@ describe('PortfolioComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PortfolioComponent ]
+      declarations: [ PortfolioComponent, ModalComponent ]
     })
     .compileComponents();
   }));
@@ -20,6 +21,7 @@ describe('PortfolioComponent', () => {
   });
 
   it('should create', () => {
+
     expect(component).toBeTruthy();
   });
 });

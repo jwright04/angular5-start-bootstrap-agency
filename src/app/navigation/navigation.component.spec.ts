@@ -22,4 +22,11 @@ describe('NavigationComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should convert string to lowercase', () => {
+
+    let value:string = "WORD";
+    expect(component.makeLowercase(value)).toEqual('word');
+  });
+
 });
